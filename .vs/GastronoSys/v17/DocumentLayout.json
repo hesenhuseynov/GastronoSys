@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\GastronoSys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D00A982-5022-4332-AD5D-1C069BBB5029}|src\\GastronoSys.Application\\GastronoSys.Application.csproj|c:\\users\\user\\source\\repos\\gastronosys\\src\\gastronosys.application\\gastronosys.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1D00A982-5022-4332-AD5D-1C069BBB5029}|src\\GastronoSys.Application\\GastronoSys.Application.csproj|solutionrelative:src\\gastronosys.application\\gastronosys.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|c:\\users\\user\\source\\repos\\gastronosys\\src\\gastronosys.infrastructure\\persistence\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|solutionrelative:src\\gastronosys.infrastructure\\persistence\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|c:\\users\\user\\source\\repos\\gastronosys\\src\\gastronosys.infrastructure\\persistence\\configurations\\paymenttypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|solutionrelative:src\\gastronosys.infrastructure\\persistence\\configurations\\paymenttypeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 215,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GastronoSys.Application",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Application\\GastronoSys.Application.csproj",
+              "RelativeDocumentMoniker": "src\\GastronoSys.Application\\GastronoSys.Application.csproj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Application\\GastronoSys.Application.csproj",
+              "RelativeToolTip": "src\\GastronoSys.Application\\GastronoSys.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-26T18:05:17.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeToolTip": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderItemConfiguration.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:02:29.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentTypeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\PaymentTypeConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\PaymentTypeConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\PaymentTypeConfiguration.cs",
+              "RelativeToolTip": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\PaymentTypeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:02:26.477Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

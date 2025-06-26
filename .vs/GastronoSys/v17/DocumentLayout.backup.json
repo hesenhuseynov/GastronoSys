@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\GastronoSys\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|c:\\users\\user\\source\\repos\\gastronosys\\src\\gastronosys.infrastructure\\persistence\\configurations\\orderstatusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|solutionrelative:src\\gastronosys.infrastructure\\persistence\\configurations\\orderstatusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|c:\\users\\user\\source\\repos\\gastronosys\\src\\gastronosys.infrastructure\\persistence\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|solutionrelative:src\\gastronosys.infrastructure\\persistence\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|c:\\users\\user\\source\\repos\\gastronosys\\src\\gastronosys.infrastructure\\persistence\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|solutionrelative:src\\gastronosys.infrastructure\\persistence\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|c:\\users\\user\\source\\repos\\gastronosys\\src\\gastronosys.infrastructure\\persistence\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|solutionrelative:src\\gastronosys.infrastructure\\persistence\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{494579CB-76DA-487A-8D25-2084307FEDD8}|src\\GastronoSys.Domain\\GastronoSys.Domain.csproj|c:\\users\\user\\source\\repos\\gastronosys\\src\\gastronosys.domain\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{494579CB-76DA-487A-8D25-2084307FEDD8}|src\\GastronoSys.Domain\\GastronoSys.Domain.csproj|solutionrelative:src\\gastronosys.domain\\entities\\table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{494579CB-76DA-487A-8D25-2084307FEDD8}|src\\GastronoSys.Domain\\GastronoSys.Domain.csproj|c:\\users\\user\\source\\repos\\gastronosys\\src\\gastronosys.domain\\entities\\tablestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{494579CB-76DA-487A-8D25-2084307FEDD8}|src\\GastronoSys.Domain\\GastronoSys.Domain.csproj|solutionrelative:src\\gastronosys.domain\\entities\\tablestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|c:\\users\\user\\source\\repos\\gastronosys\\src\\gastronosys.infrastructure\\persistence\\configurations\\tableconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|solutionrelative:src\\gastronosys.infrastructure\\persistence\\configurations\\tableconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|c:\\users\\user\\source\\repos\\gastronosys\\src\\gastronosys.infrastructure\\persistence\\configurations\\tablestatusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F39DD738-236F-4687-B9C3-99F8A3E827B0}|src\\GastronoSys.Infrastructure\\GastronoSys.Infrastructure.csproj|solutionrelative:src\\gastronosys.infrastructure\\persistence\\configurations\\tablestatusconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 215,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderStatusConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderStatusConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderStatusConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderStatusConfiguration.cs",
+              "RelativeToolTip": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderStatusConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:02:16.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderConfiguration.cs",
+              "RelativeToolTip": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:02:16.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "RelativeToolTip": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\CustomerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:02:15.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeToolTip": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\OrderItemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:02:14.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TableStatus.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Domain\\Entities\\TableStatus.cs",
+              "RelativeDocumentMoniker": "src\\GastronoSys.Domain\\Entities\\TableStatus.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Domain\\Entities\\TableStatus.cs",
+              "RelativeToolTip": "src\\GastronoSys.Domain\\Entities\\TableStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T17:56:40.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Table.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Domain\\Entities\\Table.cs",
+              "RelativeDocumentMoniker": "src\\GastronoSys.Domain\\Entities\\Table.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Domain\\Entities\\Table.cs",
+              "RelativeToolTip": "src\\GastronoSys.Domain\\Entities\\Table.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T17:56:38.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TableConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\TableConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\TableConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\TableConfiguration.cs",
+              "RelativeToolTip": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\TableConfiguration.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T17:55:46.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TableStatusConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\TableStatusConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\TableStatusConfiguration.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\GastronoSys\\src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\TableStatusConfiguration.cs",
+              "RelativeToolTip": "src\\GastronoSys.Infrastructure\\Persistence\\Configurations\\TableStatusConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T17:55:45.411Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
