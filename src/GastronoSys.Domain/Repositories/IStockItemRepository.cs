@@ -3,8 +3,11 @@ using GastronoSys.Domain.Repositories.Common;
 
 namespace GastronoSys.Domain.Repositories
 {
-    public interface IStockItemRepository : IRepository<StockItem>
+    public interface IStockItemRepository : IBaseRepository<StockItem>
     {
+
+
+
 
     }
 }

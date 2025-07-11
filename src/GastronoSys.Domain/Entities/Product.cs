@@ -11,11 +11,11 @@
 
         public bool IsActive { get; set; } = true;
 
-        //Optional stock maangemetn ucun 
-        public int StockQuantity { get; set; }
         public List<OrderItem> OrderItems { get; set; }
 
         public List<StockItem> StockItems { get; set; }
+
+        public List<Menu> Menus { get; set; }
 
     }
 }

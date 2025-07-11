@@ -24,18 +24,22 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
             builder.HasOne(p => p.ProductCategory)
                   .WithMany(p => p.Products)
                   .HasForeignKey(p => p.ProductCategoryId)
-                  .IsRequired();
+                   .OnDelete(DeleteBehavior.Restrict);
+
 
             builder.HasMany(p => p.OrderItems)
                  .WithOne(p => p.Product)
                  .HasForeignKey(p => p.ProductId)
-                 .IsRequired();
+                 .OnDelete(DeleteBehavior.Restrict);
+
 
             builder.HasMany(p => p.StockItems)
                  .WithOne(si => si.Product)
-                 .HasForeignKey(si => si.ProductId);
+                 .HasForeignKey(si => si.ProductId)
+                 .OnDelete(DeleteBehavior.Cascade);
 
-            //builder.Property(p => p.CreatedAt).IsRowVersion();
+
+            builder.Property(p => p.CreatedAt).IsRequired();
 
             builder.Property(p => p.IsDeleted).HasDefaultValue(false);
 

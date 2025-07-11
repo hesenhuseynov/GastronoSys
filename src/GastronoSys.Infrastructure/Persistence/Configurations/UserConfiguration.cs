@@ -31,7 +31,7 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
             builder.HasOne(u => u.Role)
                 .WithMany(r => r.Users)
                 .HasForeignKey(u => u.RoleId)
-                .OnDelete(DeleteBehavior.SetNull);
+                .OnDelete(DeleteBehavior.Restrict);
 
             builder.HasMany(u => u.Orders)
                 .WithOne(o => o.User)

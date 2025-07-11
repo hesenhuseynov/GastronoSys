@@ -14,6 +14,10 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
 
             builder.Property(os => os.Description).HasMaxLength(300);
 
+
+
+
+
             builder.HasMany(os => os.Orders)
                 .WithOne(o => o.OrderStatus)
                 .HasForeignKey(o => o.OrderStatusId)

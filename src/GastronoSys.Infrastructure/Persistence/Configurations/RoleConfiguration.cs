@@ -12,14 +12,10 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
 
             builder.Property(r => r.Name).IsRequired().HasMaxLength(64);
 
-
             builder.HasMany(r => r.Users)
                 .WithOne(u => u.Role)
                 .HasForeignKey(u => u.RoleId)
                 .OnDelete(DeleteBehavior.Restrict);
-
-
-
 
             builder.Property(r => r.CreatedAt).IsRequired();
             builder.Property(r => r.IsDeleted).HasDefaultValue(false);

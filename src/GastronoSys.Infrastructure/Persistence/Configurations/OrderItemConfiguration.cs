@@ -15,10 +15,10 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
                 .HasForeignKey(oi => oi.OrderId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-
             builder.HasOne(oi => oi.Product)
                 .WithMany(p => p.OrderItems)
-                .HasForeignKey(oi => oi.ProductId);
+                .HasForeignKey(oi => oi.ProductId)
+                .OnDelete(DeleteBehavior.Restrict);
 
 
             builder.HasOne(oi => oi.Discount)
@@ -34,6 +34,7 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
             builder.Property(oi => oi.UnitPrice)
                 .IsRequired()
                 .HasColumnType("decimal(18,2)");
+
 
 
             builder.Ignore(oi => oi.TotalPrice);

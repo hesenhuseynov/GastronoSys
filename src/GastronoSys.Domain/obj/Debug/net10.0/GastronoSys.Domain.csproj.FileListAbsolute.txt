@@ -1,10 +1,11 @@
+C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\bin\Debug\net10.0\GastronoSys.Domain.deps.json
+C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\bin\Debug\net10.0\GastronoSys.Domain.dll
+C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\bin\Debug\net10.0\GastronoSys.Domain.pdb
 C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\obj\Debug\net10.0\GastronoSys.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\obj\Debug\net10.0\GastronoSys.Domain.AssemblyInfoInputs.cache
 C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\obj\Debug\net10.0\GastronoSys.Domain.AssemblyInfo.cs
 C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\obj\Debug\net10.0\GastronoSys.Domain.csproj.CoreCompileInputs.cache
-C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\bin\Debug\net10.0\GastronoSys.Domain.deps.json
-C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\bin\Debug\net10.0\GastronoSys.Domain.dll
-C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\bin\Debug\net10.0\GastronoSys.Domain.pdb
+C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\obj\Debug\net10.0\GastronoSys.Domain.sourcelink.json
 C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\obj\Debug\net10.0\GastronoSys.Domain.dll
 C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\obj\Debug\net10.0\refint\GastronoSys.Domain.dll
 C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Domain\obj\Debug\net10.0\GastronoSys.Domain.pdb

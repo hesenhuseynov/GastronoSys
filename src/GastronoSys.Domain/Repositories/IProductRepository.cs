@@ -3,7 +3,8 @@ using GastronoSys.Domain.Repositories.Common;
 
 namespace GastronoSys.Domain.Repositories
 {
-    public interface IProductRepository : IRepository<Product>
+    public interface IProductRepository : IBaseRepository<Product>
     {
+        Task<List<Product>> GetByIdAsync(IEnumerable<int> productIds);
     }
 }

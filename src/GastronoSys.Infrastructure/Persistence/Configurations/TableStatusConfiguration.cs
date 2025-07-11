@@ -8,18 +8,17 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
     {
         public void Configure(EntityTypeBuilder<TableStatus> builder)
         {
-            builder.HasKey(ts => ts.Name);
+            builder.HasKey(ts => ts.Id);
+            builder.Property(ts => ts.Id).ValueGeneratedNever();
 
             builder.Property(ts => ts.Name).IsRequired().HasMaxLength(40);
 
             builder.Property(ts => ts.Description).HasMaxLength(150);
 
-
             builder.HasMany(ts => ts.Tables)
                  .WithOne(t => t.TableStatus)
                  .HasForeignKey(t => t.StatusId)
                  .OnDelete(DeleteBehavior.Restrict);
-
 
             builder.Property(ts => ts.CreatedAt).IsRequired();
             builder.Property(ts => ts.IsDeleted).HasDefaultValue(false);

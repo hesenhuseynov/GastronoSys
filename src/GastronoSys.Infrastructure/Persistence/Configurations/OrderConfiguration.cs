@@ -10,7 +10,7 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
         {
             builder.HasKey(b => b.Id);
 
-            builder.Property(o => o.TotalAmount);
+            builder.Property(o => o.TotalAmount).HasPrecision(18, 4);
 
             builder.Property(o => o.Note).HasMaxLength(300);
 
@@ -18,6 +18,7 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
                 .WithMany(t => t.Orders)
                 .HasForeignKey(o => o.TableId)
                 .OnDelete(DeleteBehavior.Restrict);
+
 
             builder.HasOne(o => o.Customer)
                 .WithMany(c => c.Orders)

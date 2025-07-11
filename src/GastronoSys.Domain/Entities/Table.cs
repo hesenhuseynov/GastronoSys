@@ -7,6 +7,5 @@
         public TableStatus TableStatus { get; set; }
         public int Capacity { get; set; }
         public List<Order> Orders { get; set; }
-
     }
 }

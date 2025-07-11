@@ -3,7 +3,7 @@ using GastronoSys.Domain.Repositories.Common;
 
 namespace GastronoSys.Domain.Repositories
 {
-    public interface IUserRepository : IRepository<User>
+    public interface IUserRepository : IBaseRepository<User>
     {
 
     }

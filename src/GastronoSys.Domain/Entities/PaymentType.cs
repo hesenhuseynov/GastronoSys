@@ -6,6 +6,8 @@
 
         public string? Description { get; set; }
         public List<Order> Orders { get; set; }
+        public List<Receipt> Receipts { get; set; }
+
 
     }
 }
