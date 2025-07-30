@@ -1,7 +1,8 @@
 ﻿using FluentValidation;
+using GastronoSys.Application.Features.Orders.Commands;
 using GastronoSys.Application.Features.Orders.Dtos;
 
-namespace GastronoSys.Application.Features.Orders.Commands
+namespace GastronoSys.Application.Features.Orders.Validators
 {
     public class CreateOrderCommandValidator : AbstractValidator<CreateOrderCommand>
     {

@@ -17,12 +17,14 @@ namespace GastronoSys.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
+
+            builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
+
             builder.Host.UseSerilog((context, services, configuration) =>
             {
                 configuration.ReadFrom.Configuration(context.Configuration)
                  .Enrich.FromLogContext();
             });
-
 
 
             builder.Services.AddApiVersioning(options =>
@@ -53,12 +55,22 @@ namespace GastronoSys.API
 
             builder.Services.AddEndpointsApiExplorer();
 
+
             builder.Services.AddSwaggerGen();
             builder.Services.ConfigureOptions<ConfigureSwaggerOptions>();
 
             var app = builder.Build();
             Log.Information("API started");
 
+            var supportedCultures = new[] { "az", "en" };
+
+            var localizationOptions = new RequestLocalizationOptions()
+                .SetDefaultCulture("az")
+                .AddSupportedCultures(supportedCultures)
+                .AddSupportedUICultures(supportedCultures);
+
+
+            app.UseRequestLocalization(localizationOptions);
 
             var provider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
 
@@ -78,7 +90,6 @@ namespace GastronoSys.API
                         options.SwaggerEndpoint($"/swagger/{desc.GroupName}/swagger.json", desc.GroupName.ToUpperInvariant());
                     }
                 });
-
             }
 
             app.UseCustomerExceptionHandler();
@@ -87,7 +98,9 @@ namespace GastronoSys.API
             app.UseAuthorization();
 
             OrderEndpoints.MapOrderEndpoints(app);
-
+            StockEndpoints.MapStockEndpoints(app);
+            ProductEndpoints.MapProductEndpoints(app);
+            ProductIngredientEndpoint.MapProductIngredientEndpoints(app);
             app.Run();
         }
     }

@@ -16,3 +16,8 @@ C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Application\obj\Debug\net
 C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Application\obj\Debug\net10.0\ref\GastronoSys.Application.dll
 C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Application\bin\Debug\net10.0\GastronoSys.Infrastructure.dll
 C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Application\bin\Debug\net10.0\GastronoSys.Infrastructure.pdb
+C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Application\bin\Debug\net10.0\az\GastronoSys.Application.resources.dll
+C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Application\obj\Debug\net10.0\GastronoSys.Application.Resources.ValidationMessages.resources
+C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Application\obj\Debug\net10.0\GastronoSys.Application.Resources.ValidationMessages.az.resources
+C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Application\obj\Debug\net10.0\GastronoSys.Application.csproj.GenerateResource.cache
+C:\Users\User\source\repos\GastronoSys\src\GastronoSys.Application\obj\Debug\net10.0\az\GastronoSys.Application.resources.dll

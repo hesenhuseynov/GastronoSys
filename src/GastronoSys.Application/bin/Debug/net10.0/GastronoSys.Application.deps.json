@@ -21,6 +21,11 @@
         },
         "runtime": {
           "GastronoSys.Application.dll": {}
+        },
+        "resources": {
+          "az/GastronoSys.Application.resources.dll": {
+            "locale": "az"
+          }
         }
       },
       "Azure.Core/1.38.0": {

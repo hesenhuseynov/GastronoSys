@@ -20,6 +20,7 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
                 .OnDelete(DeleteBehavior.Restrict);
 
 
+
             builder.HasOne(o => o.Customer)
                 .WithMany(c => c.Orders)
                 .HasForeignKey(o => o.CustomerId)

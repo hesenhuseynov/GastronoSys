@@ -37,6 +37,7 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
             builder.Property(r => r.Note)
                 .HasMaxLength(300);
 
+
             builder.Property(r => r.CreatedAt).IsRequired();
             builder.Property(r => r.IsDeleted).HasDefaultValue(false);
             builder.Property(r => r.RowVersion).IsRowVersion();

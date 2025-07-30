@@ -8,6 +8,5 @@ namespace GastronoSys.Domain.Repositories
 
 
 
-
     }
 }

@@ -158,7 +158,6 @@ C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\obj\Debu
 C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\obj\Debug\net10.0\GastronoSys.API.AssemblyInfoInputs.cache
 C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\obj\Debug\net10.0\GastronoSys.API.AssemblyInfo.cs
 C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\obj\Debug\net10.0\GastronoSys.API.csproj.CoreCompileInputs.cache
-C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\obj\Debug\net10.0\GastronoSys.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\obj\Debug\net10.0\GastronoSys.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\obj\Debug\net10.0\GastronoSys.API.sourcelink.json
 C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\obj\Debug\net10.0\scopedcss\bundle\GastronoSys.API.styles.css
@@ -182,3 +181,6 @@ C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\bin\Debu
 C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
 C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\bin\Debug\net10.0\Serilog.Sinks.File.dll
 C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\bin\Debug\net10.0\Serilog.Sinks.Seq.dll
+C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\bin\Debug\net10.0\az\GastronoSys.Application.resources.dll
+C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\obj\Debug\net10.0\GastronoSys.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\source\repos\GastronoSys\src\Presentation\GastronoSys.API\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

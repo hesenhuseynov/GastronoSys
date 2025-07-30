@@ -27,7 +27,6 @@ namespace GastronoSys.Infrastructure.Persistence.Repositories
                 .ToListAsync();
 
         }
-
         public async Task<List<Order>> GetRecentOrdersAsync(int days)
         {
             var dateLimit = DateTime.UtcNow.AddDays(-days);

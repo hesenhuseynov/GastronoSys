@@ -1135,6 +1135,11 @@
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
+        },
+        "resources": {
+          "az/GastronoSys.Application.resources.dll": {
+            "locale": "az"
+          }
         }
       },
       "GastronoSys.Domain/1.0.0": {

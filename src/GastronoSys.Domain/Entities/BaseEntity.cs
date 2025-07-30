@@ -17,8 +17,6 @@ namespace GastronoSys.Domain.Entities
         [Timestamp]
         public byte[] RowVersion { get; set; }
 
-
-
         //public string? CreatedByUserAgent { get; set; }
         //public string? UpdatedByUserAgent { get; set; }
 

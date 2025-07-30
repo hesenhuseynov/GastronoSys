@@ -568,6 +568,9 @@ namespace GastronoSys.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("Name")
+                        .IsUnique();
+
                     b.HasIndex("ProductCategoryId");
 
                     b.ToTable("Products");
@@ -628,6 +631,66 @@ namespace GastronoSys.Infrastructure.Migrations
                     b.HasIndex("SortOrder");
 
                     b.ToTable("ProductCategories");
+                });
+
+            modelBuilder.Entity("GastronoSys.Domain.Entities.ProductIngredient", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime?>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("CreatedByUserId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("DeletedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("DeletedByUserId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("Quantity")
+                        .HasPrecision(10, 4)
+                        .HasColumnType("decimal(10,4)");
+
+                    b.Property<byte[]>("RowVersion")
+                        .IsConcurrencyToken()
+                        .IsRequired()
+                        .ValueGeneratedOnAddOrUpdate()
+                        .HasColumnType("rowversion");
+
+                    b.Property<int>("StockItemId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Unit")
+                        .IsRequired()
+                        .HasMaxLength(10)
+                        .HasColumnType("nvarchar(10)");
+
+                    b.Property<DateTime?>("UpdatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("UpdatedByUserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("StockItemId");
+
+                    b.HasIndex("ProductId", "StockItemId")
+                        .IsUnique();
+
+                    b.ToTable("ProductIngredient");
                 });
 
             modelBuilder.Entity("GastronoSys.Domain.Entities.Receipt", b =>
@@ -802,9 +865,6 @@ namespace GastronoSys.Infrastructure.Migrations
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
 
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
@@ -826,8 +886,6 @@ namespace GastronoSys.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("ProductId");
 
                     b.ToTable("StockItems", t =>
                         {
@@ -1271,6 +1329,25 @@ namespace GastronoSys.Infrastructure.Migrations
                     b.Navigation("ProductCategory");
                 });
 
+            modelBuilder.Entity("GastronoSys.Domain.Entities.ProductIngredient", b =>
+                {
+                    b.HasOne("GastronoSys.Domain.Entities.Product", "Product")
+                        .WithMany("ProductIngredients")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("GastronoSys.Domain.Entities.StockItem", "StockItem")
+                        .WithMany("ProductIngredients")
+                        .HasForeignKey("StockItemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("StockItem");
+                });
+
             modelBuilder.Entity("GastronoSys.Domain.Entities.Receipt", b =>
                 {
                     b.HasOne("GastronoSys.Domain.Entities.Order", "Order")
@@ -1288,17 +1365,6 @@ namespace GastronoSys.Infrastructure.Migrations
                     b.Navigation("Order");
 
                     b.Navigation("PaymentType");
-                });
-
-            modelBuilder.Entity("GastronoSys.Domain.Entities.StockItem", b =>
-                {
-                    b.HasOne("GastronoSys.Domain.Entities.Product", "Product")
-                        .WithMany("StockItems")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("GastronoSys.Domain.Entities.StockMovement", b =>
@@ -1391,7 +1457,7 @@ namespace GastronoSys.Infrastructure.Migrations
                 {
                     b.Navigation("OrderItems");
 
-                    b.Navigation("StockItems");
+                    b.Navigation("ProductIngredients");
                 });
 
             modelBuilder.Entity("GastronoSys.Domain.Entities.ProductCategory", b =>
@@ -1406,6 +1472,8 @@ namespace GastronoSys.Infrastructure.Migrations
 
             modelBuilder.Entity("GastronoSys.Domain.Entities.StockItem", b =>
                 {
+                    b.Navigation("ProductIngredients");
+
                     b.Navigation("StockMovements");
                 });
 

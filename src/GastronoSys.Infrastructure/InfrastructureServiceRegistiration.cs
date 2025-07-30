@@ -11,6 +11,8 @@ namespace GastronoSys.Infrastructure
             services.AddScoped<IOrderRepository, OrderRepository>();
             services.AddScoped<ITableRepository, TableRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IStockItemRepository, StockItemRepository>();
+            services.AddScoped<IProductIngredientRepository, ProductIngredientRepository>();
 
             //services.AddScoped<ICustomerRepository, CustomerRep>();
 

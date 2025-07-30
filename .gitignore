@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+appsettings*.json
+secrets.json
+.idea/
+*.user
+*.suo
+*.db
+*.pdb
+*.log

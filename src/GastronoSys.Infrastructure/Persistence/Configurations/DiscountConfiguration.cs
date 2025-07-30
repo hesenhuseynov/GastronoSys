@@ -14,6 +14,8 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
 
 
 
+
+
             builder.Property(d => d.Percentage)
                 .IsRequired()
                 .HasColumnType("decimal(5,2)");

@@ -8,12 +8,12 @@
 
         public int ProductCategoryId { get; set; }
         public ProductCategory ProductCategory { get; set; }
-
         public bool IsActive { get; set; } = true;
 
         public List<OrderItem> OrderItems { get; set; }
 
-        public List<StockItem> StockItems { get; set; }
+        //public List<StockItem> StockItems { get; set; }
+        public List<ProductIngredient> ProductIngredients { get; set; }
 
         public List<Menu> Menus { get; set; }
 

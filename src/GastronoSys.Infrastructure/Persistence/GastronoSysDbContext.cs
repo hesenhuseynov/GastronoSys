@@ -43,6 +43,8 @@ namespace GastronoSys.Infrastructure.Persistence
 
         public DbSet<TableStatus> TableStatuses { get; set; }
 
+        public DbSet<ProductIngredient> ProductIngredient { get; set; }
+
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             var entries = ChangeTracker.Entries<BaseEntity>();
@@ -55,8 +57,6 @@ namespace GastronoSys.Infrastructure.Persistence
                         entry.Entity.CreatedAt = DateTime.UtcNow;
                         entry.Entity.IsDeleted = false;
                         break;
-
-
 
                     case EntityState.Modified:
                         entry.Entity.UpdatedAt = DateTime.UtcNow;

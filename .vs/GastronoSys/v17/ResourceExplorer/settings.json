@@ -2,15 +2,20 @@
   "ShowEmptyProjects": false,
   "SelectedGroups": [],
   "ExpandedProjects": [],
-  "EnableSpellChecker": true,
+  "EnableSpellChecker": false,
   "ColumnOrder": [
     "name",
     "type",
     "neutral-value",
-    "neutral-comment"
+    "neutral-comment",
+    "az",
+    "tr"
   ],
   "VisibleColumnKeys": [
     "name",
+    "neutral-comment",
+    "az",
+    "tr",
     "neutral-value"
   ]
 }

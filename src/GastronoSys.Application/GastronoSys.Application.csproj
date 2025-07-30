@@ -11,7 +11,6 @@
     <Folder Include="Common\Constants\" />
     <Folder Include="Common\Exceptions\" />
     <Folder Include="Common\Mappings\" />
-    <Folder Include="Common\Behaviors\" />
     <Folder Include="Common\Models\" />
     <Folder Include="DependencyInjection\" />
     <Folder Include="Features\Customers\Commands\CreateCustomer\" />
@@ -19,6 +18,9 @@
     <Folder Include="Features\Customers\Profiles\" />
     <Folder Include="Features\Customers\Queries\" />
     <Folder Include="Features\Orders\Queries\" />
+    <Folder Include="Features\ProductIngredients\Queries\" />
+    <Folder Include="Features\Products\Queries\" />
+    <Folder Include="Features\StockItem\Queries\" />
     <Folder Include="Services\" />
   </ItemGroup>
 
@@ -36,6 +38,21 @@
   <ItemGroup>
     <ProjectReference Include="..\GastronoSys.Domain\GastronoSys.Domain.csproj" />
     <ProjectReference Include="..\GastronoSys.Infrastructure\GastronoSys.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resources\ValidationMessages.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ValidationMessages.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\ValidationMessages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ValidationMessages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

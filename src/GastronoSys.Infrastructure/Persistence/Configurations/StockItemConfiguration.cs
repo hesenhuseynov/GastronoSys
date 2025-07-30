@@ -14,11 +14,6 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
 
             builder.Property(si => si.Unit).IsRequired().HasMaxLength(50);
 
-            builder.HasOne(si => si.Product)
-                .WithMany(p => p.StockItems)
-                .HasForeignKey(si => si.ProductId)
-                .OnDelete(DeleteBehavior.Cascade);
-
             builder.HasMany(si => si.StockMovements)
                 .WithOne(sm => sm.StockItem)
                 .HasForeignKey(sm => sm.StockItemId)

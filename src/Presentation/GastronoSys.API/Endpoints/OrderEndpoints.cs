@@ -15,8 +15,7 @@ namespace GastronoSys.API.Endpoints
                 .ReportApiVersions()
                 .Build();
 
-
-            var group = app.MapGroup("/api/v{version:apiVersion}/orders")
+            var group = app.MapGroup("/api/v{version:Apiversion}/orders")
                 .WithApiVersionSet(versionSet);
 
             group.MapPost("/", async (CreateOrderCommand command, IMediator mediator) =>
@@ -26,6 +25,7 @@ namespace GastronoSys.API.Endpoints
                 //location header for  
                 if (result.Status == ResultStatus.Created && result.Value is not null)
                     return Results.Created($"/api/v1/orders/{result.Value.Id}", result.Value);
+
 
                 return result.ToMinimalApiResult();
             })
@@ -37,7 +37,5 @@ namespace GastronoSys.API.Endpoints
                 .ProducesProblem(StatusCodes.Status500InternalServerError);
 
         }
-
-
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GastronoSys.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01b0c424c98fc56470a2cd59ea75c5872767556a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdc1ccda16d05c99e6303ba122dea12a6e5ee91a")]
 [assembly: System.Reflection.AssemblyProductAttribute("GastronoSys.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GastronoSys.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

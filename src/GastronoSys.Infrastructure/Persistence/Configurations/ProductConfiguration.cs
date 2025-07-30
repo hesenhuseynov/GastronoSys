@@ -14,6 +14,8 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
                 .IsRequired()
                 .HasMaxLength(100);
 
+            builder.HasIndex(p => p.Name).IsUnique();
+
             builder.Property(p => p.Price)
                .IsRequired()
                .HasColumnType("decimal(18,2)");
@@ -26,18 +28,10 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
                   .HasForeignKey(p => p.ProductCategoryId)
                    .OnDelete(DeleteBehavior.Restrict);
 
-
             builder.HasMany(p => p.OrderItems)
                  .WithOne(p => p.Product)
                  .HasForeignKey(p => p.ProductId)
                  .OnDelete(DeleteBehavior.Restrict);
-
-
-            builder.HasMany(p => p.StockItems)
-                 .WithOne(si => si.Product)
-                 .HasForeignKey(si => si.ProductId)
-                 .OnDelete(DeleteBehavior.Cascade);
-
 
             builder.Property(p => p.CreatedAt).IsRequired();
 
@@ -45,6 +39,8 @@ namespace GastronoSys.Infrastructure.Persistence.Configurations
 
             builder.Property(p => p.RowVersion)
                 .IsRowVersion();
+
+
         }
     }
 }

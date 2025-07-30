@@ -15,13 +15,14 @@ namespace GastronoSys.Application.Features.Orders.Profiles
 
             config.NewConfig<OrderItemDto, OrderItem>();
 
-
             config.NewConfig<Order, OrderDto>()
                 .Map(dest => dest.TableName, src => src.Table.Name)
                 .Map(dest => dest.CustomerName, src => src.Customer.FullName)
                 .Map(dest => dest.OrderStatusName, src => src.OrderStatus.Name)
                 .Map(dest => dest.PaymentTypeName, src => src.PaymentType.Name)
                 .Map(dest => dest.OrderItems, src => src.OrderItems.Adapt<List<OrderItemDto>>());
+
+
 
             config.NewConfig<OrderItem, OrderItemDto>()
                 .Map(dest => dest.ProductName, src => src.Product.Name)

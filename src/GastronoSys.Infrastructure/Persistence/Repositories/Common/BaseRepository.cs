@@ -64,7 +64,6 @@ namespace GastronoSys.Infrastructure.Persistence.Repositories.Common
         public virtual async Task SaveChangesAsync()
         {
             await _context.SaveChangesAsync();
-
         }
 
         public virtual Task UpdateAsync(T entity)
