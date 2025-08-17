@@ -22,7 +22,6 @@ namespace GastronoSys.API.Endpoints
             {
                 var result = await mediator.Send(command);
 
-                //location header for  
                 if (result.Status == ResultStatus.Created && result.Value is not null)
                     return Results.Created($"/api/v1/orders/{result.Value.Id}", result.Value);
 
